@@ -1,0 +1,26 @@
+{
+  "name": "react-app-template",
+  "version": "1.0.0",
+  "description": "Minimal working React app debloated.",
+  "main": "src/app.jsx",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "author": "Husam Ahmed <husam999h@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@ceicc/range": "next",
+    "express": "^4",
+    "react": "^17",
+    "react-dom": "^17"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7",
+    "babel-loader": "^8",
+    "webpack": "^5",
+    "webpack-cli": "^4"
+  }
+}
