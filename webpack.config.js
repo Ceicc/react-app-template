@@ -9,7 +9,9 @@ export default {
     path: join(dirname(fileURLToPath(import.meta.url)), "public/js"),
     filename: "bundle.js"
   },
-  
+
+  mode: "development",
+
   module: {
     rules: [
       {

@@ -2,11 +2,11 @@
   "name": "react-app-template",
   "version": "1.0.0",
   "description": "Minimal working React app debloated.",
-  "main": "src/app.jsx",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "dev": "webpack --mode development --watch",
+    "dev": "webpack --watch",
     "build": "webpack --mode production"
   },
   "author": "Husam Ahmed <husam999h@gmail.com>",
